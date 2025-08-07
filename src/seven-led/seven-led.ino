@@ -23,6 +23,12 @@ void loop() {
     delay(300);
   }
   delay(400);
+
+  for(int i = 128; i > 0; i = i / 2){
+    pika(i);
+    delay(300);
+  }
+  delay(400);
 }
 
 void pika(int k){
