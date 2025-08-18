@@ -12,12 +12,6 @@ void setup() {
 
 void loop() {
 
-  for(int i = 0; i < 128; i++){
-    pika(i);
-    delay(200);
-  }
-  delay(400);
-
   for(int i = 1; i < 128; i = i * 2){
     pika(i);
     delay(300);
